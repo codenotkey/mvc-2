@@ -1,0 +1,16 @@
+#app3{
+    background-color: salmon;
+    width: 50vw;
+    height: 50vh;
+}
+#app3 .square {
+    border: 1px solid rgb(72, 16, 177);
+    margin-top: 10vh;
+    margin-left: 10vw;
+    width: 10vw;
+    height: 10vh;
+    transition: transform 1s;
+}
+#app3 .square.active{
+    transform: translateX(15vw);
+}

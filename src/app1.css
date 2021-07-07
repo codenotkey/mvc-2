@@ -1,0 +1,9 @@
+#counter{
+    width: 50vw;
+    height: 50vh;
+    background-color: beige;
+}
+#counter .btn{
+    width: 30px;
+    height: 20px;
+}
